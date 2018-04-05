@@ -1,0 +1,49 @@
+{
+    "presets": [
+      ["env", {"modules": false}],
+      "stage-0",
+      "react"
+    ],
+    "env": {
+      "test": {
+        "plugins": [
+          "transform-es2015-modules-commonjs"
+        ]
+      },
+      "development": {
+        "plugins": [
+          ["styled-components", { "displayName": true, "uglifyPure": false }]
+        ]
+      },
+      "production": {
+        "plugins": [
+          "transform-react-remove-prop-types",
+          ["transform-imports", {
+            "APP/components": {
+              "transform": "APP/components/${member}",
+              "preventFullImport": true
+            },
+            "APP/services": {
+              "transform": "APP/services/${member}",
+              "preventFullImport": true
+            }
+          }]
+        ]
+      }
+    },
+    "compact": false,
+    "plugins": [
+      "transform-regenerator",
+      ["transform-imports", {
+        "APP/components": {
+          "transform": "APP/components/${member}",
+          "preventFullImport": true
+        },
+        "APP/services": {
+          "transform": "APP/services/${member}",
+          "preventFullImport": true
+        }
+      }]
+    ]
+  }
+  
