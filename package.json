@@ -4,7 +4,7 @@
   "description": "Starter Project for React Redux & Jest",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --hot --progress webpack --mode development",
+    "start": "webpack-dev-server --hot --progress --mode development",
     "build": "webpack --mode production"
   },
   "keywords": [],
