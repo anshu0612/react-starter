@@ -9,3 +9,7 @@
 
 # log files
 /*.log
+
+# intellij file
+/.idea
+
