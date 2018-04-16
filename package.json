@@ -15,10 +15,15 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-stage-0": "^6.24.1",
     "css-loader": "^0.28.11",
+    "history": "^4.7.2",
     "raw-loader": "^0.5.1",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
-    "react-hot-loader": "^4.0.1"
+    "react-hot-loader": "^4.0.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "redux": "^3.7.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -34,7 +39,6 @@
     "copy-webpack-plugin": "^4.5.1",
     "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.2.0",
-    "json-loader": "^0.5.7",
     "standard": "^11.0.1",
     "standard-loader": "^6.0.1",
     "style-loader": "^0.20.3",

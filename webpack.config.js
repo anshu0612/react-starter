@@ -9,7 +9,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader'
@@ -22,11 +22,8 @@ module.exports = {
     port: 9000,
     host: '0.0.0.0'
   },
-  node: {
-    console: true,
-    fs: 'empty',
-    net: 'empty',
-    tls: 'empty'
+  resolve: {
+    extensions: ['.js', '.jsx']
   },
   plugins: [htmlPlugin]
 }
