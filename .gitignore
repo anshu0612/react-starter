@@ -1,0 +1,15 @@
+# node modules
+/node_modules
+
+# build folder
+/dist
+
+# npm lock file
+/package-lock.json
+
+# log files
+/*.log
+
+# intellij file
+/.idea
+

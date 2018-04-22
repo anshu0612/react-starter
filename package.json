@@ -1,0 +1,48 @@
+{
+  "name": "react_starter",
+  "version": "1.0.0",
+  "description": "Starter Project for React Redux & Jest",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --progress --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "anshu",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^8.2.2",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^0.28.11",
+    "history": "^4.7.2",
+    "raw-loader": "^0.5.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-hot-loader": "^4.0.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "~5.0.0-alpha.9",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-imports": "^1.5.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.13",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "standard": "^11.0.1",
+    "standard-loader": "^6.0.1",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
